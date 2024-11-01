@@ -1,0 +1,728 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple Diary french translation\n"
+"POT-Creation-Date: 2019-10-21 13:35+0200\n"
+"PO-Revision-Date: 2019-10-21 13:52+0200\n"
+"Last-Translator: Jojaba <jojaba@gmail.com>\n"
+"Language-Team: Jojaba <jojaba@gmail.com>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-KeywordsList: __;_e;_x;_n;_ex\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: simdiaw-options.php:13 simdiaw-options.php:34
+msgid "Diary options"
+msgstr "Options de l'agenda"
+
+#: simdiaw-options.php:14
+msgid "Simple Diary"
+msgstr "Simple Diary"
+
+#: simdiaw-options.php:54
+msgid "Save Changes"
+msgstr "Enregistrer les modifications"
+
+#: simdiaw-options.php:87
+msgid "Help"
+msgstr "Aide"
+
+#: simdiaw-options.php:96
+msgid "Frontend settings"
+msgstr "Paramètres pour partie publique"
+
+#: simdiaw-options.php:104
+msgid "Diary page title"
+msgstr "Titre de la page agenda"
+
+#: simdiaw-options.php:112
+msgid "Slug"
+msgstr "Slug (identifiant)"
+
+#: simdiaw-options.php:120
+msgid "Upcoming reminders count"
+msgstr "Nombre de pense-bêtes à venir"
+
+#: simdiaw-options.php:128
+msgid "Past reminders count"
+msgstr "Nombre de pense-bêtes passés"
+
+#: simdiaw-options.php:136
+msgid "Reminders count"
+msgstr "Nombre de pense-bêtes"
+
+#: simdiaw-options.php:144
+msgid "Custom reminders"
+msgstr "Pense-bêtes personnalisés"
+
+#: simdiaw-options.php:152
+msgid "Upcoming reminders format"
+msgstr "Format des pense-bêtes à venir"
+
+#: simdiaw-options.php:160
+msgid "Past reminders format"
+msgstr "Format des pense-bêtes passés"
+
+#: simdiaw-options.php:170
+msgid "Backend settings"
+msgstr "Paramètres pour partie administrative"
+
+#: simdiaw-options.php:177 simdiaw-options.php:370
+msgid "Enable reminder creation in post"
+msgstr "Activer la création de pense-bête à partir d'un article"
+
+#: simdiaw-options.php:185
+msgid "Columns in edit page"
+msgstr "Colonnes dans le listing des pense-bêtes"
+
+#: simdiaw-options.php:193
+msgid "Date format pattern"
+msgstr "Format de la date"
+
+#: simdiaw-options.php:201
+msgid "Time format pattern"
+msgstr "Format de l'horaire"
+
+#: simdiaw-options.php:209
+msgid "Time interval"
+msgstr "Intervalle de temps"
+
+#: simdiaw-options.php:224
+msgid ""
+"If you need help using Simple Diary, we recommand you to visit the official "
+"plugin page. Here a few links (opening in new window):"
+msgstr ""
+"Si vous avez besoin d'aide, nous vous recommandons de vous rendre à la page "
+"officielle de Simple Diary. Voici quelques liens (s'ouvrent dans une "
+"nouvelle fenêtre)&nbsp;:"
+
+#: simdiaw-options.php:224
+msgid "The description page"
+msgstr "La page de description"
+
+#: simdiaw-options.php:224
+msgid "The installation page"
+msgstr "La page d'installation"
+
+#: simdiaw-options.php:224
+msgid "The faq"
+msgstr "La faq"
+
+#: simdiaw-options.php:224
+msgid "The support page"
+msgstr "La page d'assistance"
+
+#: simdiaw-options.php:234
+msgid ""
+"Here you can set some parameters that will impact the frontend templates "
+"(the public site)."
+msgstr ""
+"Ici vous pouvez définir des paramètres impactant les templates du site."
+
+#: simdiaw-options.php:242 simdiaw-options.php:449
+#: simdiaw-template-functions.php:7 simdiaw-template-functions.php:335
+#: simple-diary.php:40
+msgid "Diary"
+msgstr "Agenda"
+
+#: simdiaw-options.php:247
+msgid "The title that will be displayed on top of diary pages."
+msgstr "Le titre qui s'affichera en haut des pages agenda."
+
+#: simdiaw-options.php:255 simdiaw-options.php:454
+#: simdiaw-template-functions.php:8 simdiaw-template-functions.php:342
+#: simple-diary.php:28
+msgid "diary"
+msgstr "agenda"
+
+#: simdiaw-options.php:260
+#, php-format
+msgid ""
+"The slug that is used to identify the reminders page. This slug must be URL "
+"friendly so only lowercase characters, numbers and \"-\" are allowed (no "
+"spaces, no accentuated characters). If you defined your permalinks to have "
+"nice URL in the <a href=\"options-permalink.php\">Permalink option page</a> "
+"you can get the Diary page on <code>%1$s</code>. Alternatively, this page "
+"will be always available on <code>%2$s</code>."
+msgstr ""
+"Le slug qui est utilisé pour identifier la page des pense-bêtes. Ce slug "
+"doit être prévu pour une URL donc être composé uniquement de minuscules, de "
+"chiffres et de tirets (pas d'espace, pas de caractères accentués). Si vous "
+"avez modifié vos permaliens afin de les rendre SEO dans la <a href=\"options-"
+"permalink.php\">page d'options permalien</a> vous pourrez atteindre la page "
+"d'agenda par l'url <code>%1$s</code>. Dans tous les cas, cette page est "
+"accessible par l'url <code>%2$s</code>."
+
+#: simdiaw-options.php:273
+msgid ""
+"Default number of upcoming reminders that should be displayed when using for "
+"exemple handcrafted sidebar element with "
+"<code>the_simdiaw_upcoming_reminders()</code> function. Will be overriden by "
+"value set in Simple Diary widget or in the "
+"<code>the_simdiaw_upcoming_reminders()</code> template function (ex: "
+"<code>the_simdiaw_upcoming_reminders(5)</code> will display the next 5 "
+"upcoming reminders)."
+msgstr ""
+"Le nombre de pense-bêtes à venir à afficher lorsque vous utilisez un élément "
+"de panneau latéral personnalisé avec la fonction "
+"<code>the_simdiaw_upcoming_reminders()</code>. Cette valeur ne sera pas "
+"prise en compte lorsque le widget Simple Diary est utilisé ou lorsque ce "
+"nombre est indiqué dans la fonction <code>the_simdiaw_upcoming_reminders()</"
+"code> (exemple&nbsp;: <code>the_simdiaw_upcoming_reminders(5)</code> "
+"affichera les 5 pense-bêtes à venir)."
+
+#: simdiaw-options.php:286
+msgid ""
+"Default number of past reminders that should be displayed when using for "
+"exemple handcrafted sidebar element with <code>the_simdiaw_past_reminders()</"
+"code> function. Will be overriden by value set in the "
+"<code>the_simdiaw_past_reminders()</code> template function (ex: "
+"<code>the_simdiaw_past_reminders(5)</code> will display the 5 past "
+"reminders)."
+msgstr ""
+"Le nombre de pense-bêtes passés à afficher lorsque vous utilisez un élément "
+"de panneau latéral personnalisé avec la fonction "
+"<code>the_simdiaw_past_reminders()</code>. Cette valeur ne sera pas prise en "
+"compte lorsque ce nombre est indiqué dans la fonction "
+"<code>the_simdiaw_past_reminders()</code> (exemple&nbsp;: "
+"<code>the_simdiaw_past_reminders(5)</code> affichera les 5 pense-bêtes "
+"passés)."
+
+#: simdiaw-options.php:299
+msgid ""
+"Default number of reminders that should be displayed in Diary pages. Will be "
+"overriden by value set in the <code>the_simdiaw_reminders_query()</code> "
+"template function (ex: <code>the_simdiaw_reminders_query(6)</code> will "
+"display 6 reminders in each page)."
+msgstr ""
+"Le nombre de pense-bêtes qui devront être affichés dans l'agenda. Sera "
+"remplacé par la valeur définie dans la foction de template  "
+"<code>the_simdiaw_reminders_query()</code> (ex : "
+"<code>the_simdiaw_reminders_query(6)</code> affichera 6 pense-bêtes dans "
+"chaque page)."
+
+#: simdiaw-options.php:318
+msgid "Custom reminder name:"
+msgstr "Nom du pense-bête personnalisé&nbsp;:"
+
+#: simdiaw-options.php:318
+msgid "Class:"
+msgstr "Classe&nbsp;:"
+
+#: simdiaw-options.php:321
+msgid ""
+"Here you can set custom reminder names. They are paired with a class that "
+"could be used for styling purposes. The class has no spaces, no accentuated "
+"or special characters, it should only contain lowercase characters, digits "
+"and dashes (valid examples : <code>important</code>, <code>the-best-event</"
+"code>, <code>anniversary-1</code>). Both, name and class can be retrieved in "
+"the frontend template by using respectively the "
+"<code>get_simdiaw_reminder_type()</code> and "
+"<code>get_simdiaw_reminder_class()</code> functions."
+msgstr ""
+"Ici vous pouvez créer des noms de pense-bêtes personnalisés. Ils sont "
+"associés à une classe qui pourra être utiliser pour des besoins de style. La "
+"classe ne comporte pas d'espace, de caractères spéciaux ou accentués, elle "
+"ne devrait contenir des minuscules, des chiffres et des tirets (exemples "
+"valides : <code>important</code>, <code>le-meilleur-evenement</code>, "
+"<code>anniveraire-1</code>). Les deux, nom et classe peuvent être récupérés "
+"dans le gabarit frontend en utilisant respectivment les fonctions "
+"<code>get_simdiaw_reminder_type()</code> et "
+"<code>get_simdiaw_reminder_class()</code>."
+
+#: simdiaw-options.php:329 simdiaw-options.php:343 simdiaw-options.php:491
+#: simdiaw-options.php:496 simdiaw-template-functions.php:12
+#: simdiaw-template-functions.php:13
+msgid ""
+"<a href=\"#url\">#title</a><br>Date&nbsp;: #date<br>Location&nbsp;: #location"
+msgstr ""
+"<a href=\"#url\">#title</a><br>Date&nbsp;: #date<br>Lieu&nbsp;: #location"
+
+#: simdiaw-options.php:335
+msgid ""
+"The format of each reminder in the <strong>upcomming</strong> reminders "
+"listing. All HTML tags are allowed, and the following placeholders can be "
+"used to display there substitute: <code>#url</code> will be replaced by the "
+"<em>reminder url</em> (address to the reminder), <code>#title</code> will be "
+"replaced by the <em>reminder title</em>, <code>#date</code> will be replaced "
+"by the <em>reminder date</em> (if there is an end date, both, start and end "
+"date will be displayed with a dash for separation character), "
+"<code>#location</code> will be replaced by the <em>reminder location<em>."
+msgstr ""
+"Le format de chaque pense-bête dans le listing des pense-bêtes <strong>à "
+"venir</strong>. Toutes les balises  HTML sont autorisées et les motifs de "
+"remplacement peuvent être utilisés pour afficher leur substitut&nbsp;: "
+"<code>#url</code> sera remplacé par l'<em>url du pense-bête</em> (adresse "
+"vers le pense-bête), <code>#title</code> sera remplacé par le <em>titre du "
+"pense-bête</em>, <code>#date</code> sera remplacé par la <em>date du pense-"
+"bête</em> (s'il y a une date de fin, la date de début et celle de fin seront "
+"affichées séparées par un tiret), <code>#location</code> sera remplacé par "
+"le <em>lieu du pense-bête<em>."
+
+#: simdiaw-options.php:349
+msgid ""
+"The format of each reminder in the <strong>past</strong> reminders listing. "
+"All HTML tags are allowed, and the following placeholders can be used to "
+"display there substitute: <code>#url</code> will be replaced by the "
+"<em>reminder url</em> (address to the reminder), <code>#title</code> will be "
+"replaced by the <em>reminder title</em>, <code>#date</code> will be replaced "
+"by the <em>reminder date</em> (if there is an end date, both, start and end "
+"date will be displayed with a dash for separation character), "
+"<code>#location</code> will be replaced by the <em>reminder location<em>."
+msgstr ""
+"Le format de chaque pense-bête dans le listing des pense-bêtes "
+"<strong>passés</strong>. Toutes les balises  HTML sont autorisées et les "
+"motifs de remplacement peuvent être utilisés pour afficher leur "
+"substitut&nbsp;: <code>#url</code> sera remplacé par l'<em>url du pense-"
+"bête</em> (adresse vers le pense-bête), <code>#title</code> sera remplacé "
+"par le <em>titre du pense-bête</em>, <code>#date</code> sera remplacé par la "
+"<em>date du pense-bête</em> (s'il y a une date de fin, la date de début et "
+"celle de fin seront affichées séparées par un tiret), <code>#location</code> "
+"sera remplacé par le <em>lieu du pense-bête<em>."
+
+#: simdiaw-options.php:358
+msgid ""
+"Here you can set some parameters that will impact the backend system "
+"(management of the reminders on administration side)."
+msgstr ""
+"Ici vous pouvez définir des paramères impactant le système dans la partie "
+"administrative."
+
+#: simdiaw-options.php:372
+msgid ""
+"Enable or disable the creation of a reminder in a post compose window (in "
+"sidebar or in admin Toolbar) "
+msgstr ""
+"Activer ou désactiver la possibilité de créer un pense-bête à partir de la "
+"fenêtre de composition d'un article (dans le panneau latéral ou la barre "
+"d'administration)"
+
+#: simdiaw-options.php:385 simple-diary.php:115 simple-diary.php:279
+msgid "Ending date"
+msgstr "Date de fin"
+
+#: simdiaw-options.php:387 simple-diary.php:117 simple-diary.php:299
+msgid "Starting time"
+msgstr "Horaire de début"
+
+#: simdiaw-options.php:389 simple-diary.php:119 simple-diary.php:305
+msgid "Ending time"
+msgstr "Horaire de fin"
+
+#: simdiaw-options.php:391 simple-diary.php:121 simple-diary.php:326
+msgid "Location"
+msgstr "Lieu"
+
+#: simdiaw-options.php:393 simple-diary.php:123
+msgid "Created or modified"
+msgstr "Créé ou modifié"
+
+#: simdiaw-options.php:396
+msgid ""
+"The columns that should be displayed in edit page. Title and starting date "
+"displayed by default."
+msgstr ""
+"Les colonnes qui s'afficheront dans le listing des pense-bêtes. Le titre et "
+"la date de début sont affichés par défaut."
+
+# Please go to http://amsul.ca/pickadate.js/date/#formatting-rules to find out how to format a date.
+#: simdiaw-options.php:405 simple-diary.php:458
+msgid "ddd, d mmm yyyy"
+msgstr "ddd, d mmm yyyy"
+
+#: simdiaw-options.php:410
+#, php-format
+msgid ""
+"The pattern that should be used to display the date in the date field. To "
+"get the rules to format it, please go to the <a href=\"%s\" target=\"_blanck"
+"\">Date formatting rules section of pickadate Website</a>."
+msgstr ""
+"Le motif qui devra être utilisé pour afficher la date dans le champ "
+"correspondant. Pour obtenir les règles de formatage, veuillez vous rendre au "
+"<a href=\"%s\" target=\"_blanck\">chapitre concernant le formatage de la "
+"date sur le site Web de pickadate</a>."
+
+# Please go to http://amsul.ca/pickadate.js/time/#formatting-rules to find out how to format the time.
+#: simdiaw-options.php:418 simple-diary.php:459
+msgid "hh:i A"
+msgstr "HH!hi"
+
+#: simdiaw-options.php:423
+#, php-format
+msgid ""
+"The pattern that should be used to display the time in the date field. To "
+"get the rules to format it, please go to the <a href=\"%s\" target=\"_blanck"
+"\">Time formatting rules section of pickadate Website</a>."
+msgstr ""
+"Le motif qui devra être utilisé pour afficher l'horaire dans le champ "
+"correspondant. Pour obtenir les règles de formatage, veuillez vous rendre au "
+"<a href=\"%s\" target=\"_blanck\">chapitre concernant le formatage de la "
+"date sur le site Web de pickadate</a>."
+
+#: simdiaw-options.php:436
+msgid "The interval between each time display in minutes."
+msgstr "L'intervalle entre deux horaires affichés en minutes."
+
+#: simdiaw-template-functions.php:364 simdiaw-template-functions.php:527
+msgid "Location:"
+msgstr "Lieu&nbsp;:"
+
+#: simdiaw-template-functions.php:372
+msgid "Related article"
+msgstr "Article en relation"
+
+#: simdiaw-template-functions.php:378
+msgid "Related external resource"
+msgstr "Ressource externe en relation"
+
+#: simdiaw-template-functions.php:526
+msgid "Date:"
+msgstr "Date&nbsp;:"
+
+#: simdiaw-widget.php:11 simdiaw-widget.php:21
+msgid "Upcoming reminders"
+msgstr "Pense-bêtes à venir"
+
+#: simdiaw-widget.php:14
+msgid "Listing of the upcoming simple diary reminders."
+msgstr "Listing des pense-bêtes Simple Diary."
+
+#: simdiaw-widget.php:45
+msgid "Title:"
+msgstr "Titre&nbsp;:"
+
+#: simdiaw-widget.php:48
+msgid "Number of reminders to show:"
+msgstr "Nombre de pense-bêtes à afficher&nbsp:"
+
+#: simple-diary.js:10 simple-diary.min.js:1 simple-diary.php:619
+#: simple-diary.php:635
+msgid "Create a reminder for this post"
+msgstr "Créer un pense-bête pour cet article"
+
+#: simple-diary.js:15 simple-diary.min.js:1 simple-diary.php:639
+msgid "Publish the post to create a new reminder"
+msgstr "Publier l'article pour créer un nouveau pense-bête"
+
+#: simple-diary.php:30 simple-diary.php:112
+msgid "Reminders"
+msgstr "Pense-bêtes"
+
+#: simple-diary.php:31
+msgid "Reminder"
+msgstr "Pense-bête"
+
+#: simple-diary.php:32
+msgid "New"
+msgstr "Ajouter"
+
+#: simple-diary.php:33
+msgid "Add a reminder"
+msgstr "Ajouter un pense-bête"
+
+#: simple-diary.php:34
+msgid "Modify the reminder"
+msgstr "Modifier le pense-bête"
+
+#: simple-diary.php:35
+msgid "New reminder"
+msgstr "Nouveau pense-bête"
+
+#: simple-diary.php:36
+msgid "All reminders"
+msgstr "Tous les pense-bêtes"
+
+#: simple-diary.php:37
+msgid "Show the reminder"
+msgstr "Afficher le pense-bête"
+
+#: simple-diary.php:38
+msgid "Search for reminders"
+msgstr "Chercher dans les pense-bêtes"
+
+#: simple-diary.php:82
+#, php-format
+msgid "Reminder updated. <a href=\"%s\">View reminder</a>"
+msgstr "Pense-bête mis à jour. <a href=\"%s\">Afficher le pense-bête</a>"
+
+#: simple-diary.php:83
+msgid "Custom field updated."
+msgstr "Champ personnalisé mis à jour."
+
+#: simple-diary.php:84
+msgid "Custom field deleted."
+msgstr "Champs personnalisé supprimé."
+
+#: simple-diary.php:85
+msgid "Reminder updated."
+msgstr "Pense-bête mis à jour."
+
+#: simple-diary.php:87
+#, php-format
+msgid "Reminder restored to revision from %s"
+msgstr "Pense-bête rétabli à la révision %s"
+
+#: simple-diary.php:88
+#, php-format
+msgid "Reminder published. <a href=\"%s\">View reminder</a>"
+msgstr "Pense-bête publié.  <a href=\"%s\">Afficher le pense-bête</a>"
+
+#: simple-diary.php:89
+msgid "Reminder saved."
+msgstr "Pense-bête enregistré."
+
+#: simple-diary.php:90
+#, php-format
+msgid ""
+"Reminder submitted. <a target=\"_blank\" href=\"%s\">Preview reminder</a>"
+msgstr ""
+"Pense-bête envoyé. <a target=\"_blank\" href=\"%s\">Aperçu du pense-bête</a>"
+
+#: simple-diary.php:91
+#, php-format
+msgid ""
+"Reminder scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href="
+"\"%2$s\">Preview reminder</a>"
+msgstr ""
+"Pense-bête programmé pour&nbsp;: <strong>%1$s</strong>. <a target=\"_blank\" "
+"href=\"%2$s\">Aperçu du pense-bête</a>"
+
+#: simple-diary.php:93
+msgid "M j, Y @ G:i"
+msgstr "j, M Y à G:i"
+
+#: simple-diary.php:94
+#, php-format
+msgid ""
+"Reminder draft updated. <a target=\"_blank\" href=\"%s\">Preview reminder</a>"
+msgstr ""
+"Brouillon du pense-bête mis à jour. <a target=\"_blank\" href=\"%s\">Aperçu "
+"du pense-bête</a>"
+
+#: simple-diary.php:113 simple-diary.php:273
+msgid "Starting date"
+msgstr "Date de début"
+
+#: simple-diary.php:240
+msgid "Info about the reminder"
+msgstr "Informations à propos du pense-bête"
+
+#: simple-diary.php:267
+msgid "DATE"
+msgstr "DATE"
+
+#: simple-diary.php:293
+msgid "TIME"
+msgstr "HORAIRE"
+
+#: simple-diary.php:320
+msgid "LOCATION"
+msgstr "LIEU"
+
+#: simple-diary.php:340
+msgid "LINK"
+msgstr "LIEN"
+
+#: simple-diary.php:346
+msgid "Either an URL"
+msgstr "Soit une URL"
+
+#: simple-diary.php:356
+msgid "No article selected"
+msgstr "Pas d'article sélectionné"
+
+#: simple-diary.php:370
+msgid "… or an article"
+msgstr "… soit un article"
+
+#: simple-diary.php:388
+msgid "LINK TEXT"
+msgstr "TEXTE DU LIEN"
+
+#: simple-diary.php:395
+msgid "Link text"
+msgstr "Texte du lien"
+
+#: simple-diary.php:408
+msgid "TYPE"
+msgstr "TYPE"
+
+#: simple-diary.php:418
+msgid "Default reminder"
+msgstr "Pense-bête par défaut"
+
+#: simple-diary.php:434
+msgid "Reminder type"
+msgstr "Type de pense-bête"
+
+#: simple-diary.php:447
+msgid "required informations."
+msgstr "informations nécessaires."
+
+#: simple-diary.php:609
+msgid "Add to Diary"
+msgstr "Ajouter à l'agenda"
+
+#: simple-diary.php:621
+msgid "You have to publish the post to create a new reminder linked to it."
+msgstr ""
+"Vous devez publier l'article avoir de pouvoir créer un nouveau pense-bête en "
+"relation."
+
+#: simple-diary.php:632
+msgid "Please replace this by your title"
+msgstr "Veuillez remplacer cela par votre titre"
+
+#: themes-support/twentyeleven/archive-reminder.php:36
+msgid "Nothing Found"
+msgstr "Rien n'a été trouvé"
+
+#: themes-support/twentyeleven/archive-reminder.php:40
+msgid ""
+"Apologies, but no results were found for the requested archive. Perhaps "
+"searching will help find a related post."
+msgstr ""
+"Désolé, mais aucun pense-bête n'a été trouvé. Peut-être qu'une recherche "
+"vous aidera une information en relation."
+
+#: themes-support/twentyeleven/content-reminder.php:26
+msgid "Reply"
+msgstr "Réponse"
+
+#: themes-support/twentyeleven/content-reminder.php:26
+msgid "1"
+msgstr "1"
+
+#: themes-support/twentyeleven/content-reminder.php:26
+msgid "%"
+msgstr "%"
+
+#: themes-support/twentyeleven/content-reminder.php:37
+#: themes-support/twentytwelve/content-reminder.php:28
+msgid "Leave a reply"
+msgstr "Répondre"
+
+#: themes-support/twentyeleven/content-reminder.php:37
+msgid "<b>1</b> Reply"
+msgstr "<b>1</b> Réponse"
+
+#: themes-support/twentyeleven/content-reminder.php:37
+msgid "<b>%</b> Replies"
+msgstr "<b>%</b> Réponses"
+
+#: themes-support/twentyeleven/content-reminder.php:39
+#: themes-support/twentyfourteen/content-reminder.php:32
+#: themes-support/twentyten/loop-reminder.php:53
+#: themes-support/twentythirteen/content-reminder.php:33
+#: themes-support/twentytwelve/content-reminder.php:44
+msgid "Edit"
+msgstr "Modifier"
+
+#: themes-support/twentyfourteen/content-reminder.php:31
+#: themes-support/twentythirteen/content-reminder.php:46
+msgid "Leave a comment"
+msgstr "Laisser un commentaire"
+
+#: themes-support/twentyfourteen/content-reminder.php:31
+msgid "1 Comment"
+msgstr "1 commentaire"
+
+#: themes-support/twentyfourteen/content-reminder.php:31
+msgid "% Comments"
+msgstr "% commentaires"
+
+#: themes-support/twentyfourteen/single-reminder.php:31
+#: themes-support/twentytwelve/archive-reminder.php:34
+#: themes-support/twentytwelve/single-reminder.php:20
+msgid "Reminder navigation"
+msgstr "Navigation du pense-bête"
+
+#: themes-support/twentyfourteen/single-reminder.php:34
+msgid "<span class=\"meta-nav\">Previous Reminder</span>%title"
+msgstr "<span class=\"meta-nav\">Pense-bête précédent</span>%title"
+
+#: themes-support/twentyfourteen/single-reminder.php:35
+msgid "<span class=\"meta-nav\">Next Reminder</span>%title"
+msgstr "<span class=\"meta-nav\">Pense-bête suivant</span>%title"
+
+#: themes-support/twentyten/loop-reminder.php:15
+#: themes-support/twentytwelve/single-reminder.php:21
+msgid "&larr;"
+msgstr "&larr;"
+
+#: themes-support/twentyten/loop-reminder.php:16
+#: themes-support/twentytwelve/single-reminder.php:22
+msgid "&rarr;"
+msgstr "&larr;"
+
+#: themes-support/twentyten/loop-reminder.php:32
+#: themes-support/twentythirteen/content-reminder.php:40
+#: themes-support/twentytwelve/content-reminder.php:35
+msgid "Pages:"
+msgstr "Pages&nbsp;:"
+
+#: themes-support/twentyten/loop-reminder.php:41
+#: themes-support/twentytwelve/content-reminder.php:55
+#, php-format
+msgid "About %s"
+msgstr "À propos de %s"
+
+#: themes-support/twentyten/loop-reminder.php:45
+#: themes-support/twentytwelve/content-reminder.php:59
+#, php-format
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+"Afficher toutes les contributions de %s <span class=\"meta-nav\">&rarr;</"
+"span>"
+
+#: themes-support/twentythirteen/archive-reminder.php:36
+msgid "Reminders navigation"
+msgstr "Navigation des pense-bêtes"
+
+#: themes-support/twentythirteen/archive-reminder.php:40
+#: themes-support/twentytwelve/archive-reminder.php:35
+msgid "<span class=\"meta-nav\">&larr;</span> Older reminders"
+msgstr "<span class=\"meta-nav\">&larr;</span> Pense-bêtes anciens"
+
+#: themes-support/twentythirteen/archive-reminder.php:44
+#: themes-support/twentytwelve/archive-reminder.php:36
+msgid "Newer reminders <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Pense-bêtes récents <span class=\"meta-nav\">&rarr;</span>"
+
+#: themes-support/twentythirteen/content-reminder.php:46
+msgid "One comment so far"
+msgstr "Un commentaire pour l'instant"
+
+#: themes-support/twentythirteen/content-reminder.php:46
+#, php-format
+msgid "View all % comments"
+msgstr "Afficher tous les % commentaires"
+
+#: themes-support/twentytwelve/content-reminder.php:28
+msgid "1 Reply"
+msgstr "1 réponse"
+
+#: themes-support/twentytwelve/content-reminder.php:28
+msgid "% Replies"
+msgstr "% réponses"
+
+#, php-format
+#~ msgid "Go to the post %s"
+#~ msgstr "Aller à l'article « %s »"
+
+#~ msgid "<a href=\"#url\">#title</a><br>#date<br>#location"
+#~ msgstr "<a href=\"#url\">#title</a><br>#date<br>#location"
+
+#~ msgid "Here you can set the options of Simple Diary plugin."
+#~ msgstr "Ici vous pouvez définir les paramètres du plugin Simple Diary"
+
+#~ msgid "View reminder"
+#~ msgstr "Afficher le pense-bête"
+
+#~ msgid "Preview reminder"
+#~ msgstr "Aperçu du pense-bête"

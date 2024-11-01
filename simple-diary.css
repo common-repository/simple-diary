@@ -1,0 +1,98 @@
+/* For the link in admin toolbar to create new reminder */
+#wpadminbar #wp-toolbar .simdiaw_publish_for_new_reminder a:hover, #wpadminbar #wp-toolbar .simdiaw_publish_for_new_reminder a:focus, #wpadminbar #wp-toolbar .simdiaw_publish_for_new_reminder a:active {
+    color: #eee;
+    cursor: not-allowed;
+    background: none;
+}
+
+/* For the reminder compose form */
+
+#simdiaw-meta-list {
+    display: table;
+    width: 100%;
+}
+
+.simdiaw-row {
+    display: table-row;
+    width: 100%;
+}
+
+.simdiaw-input-cell, .simdiaw-icon-cell {
+    display: table-cell;
+    height: 100px;
+    vertical-align: middle;  
+}
+
+.simdiaw-icon-cell {
+    text-align: right;
+    width: 6%;
+}
+
+.simdiaw-input-cell {
+     width: 94%;
+}
+
+#simdiaw_meta .dashicons {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    font-size: 48px;
+    line-height: 48px;
+}
+
+.simdiaw-start-date, .simdiaw-end-date, .simdiaw-start-time, .simdiaw-end-time, .simdiaw-location, .simdiaw-url, .simdiaw-art, .simdiaw-link-text, .simdiaw-type {
+    display: inline-block;
+}
+
+.simdiaw-start-date, .simdiaw-end-date, .simdiaw-start-time, .simdiaw-end-time, .simdiaw-url, .simdiaw-art {
+    padding-left: 1%;
+    width: 48%;
+}
+
+.simdiaw-location, .simdiaw-link-text, .simdiaw-type {
+    padding-left: 1%;
+    width: 98%;
+}
+
+#simdiaw-meta-list .req {
+    padding-top: 30px;
+    clear: left;
+    text-align: right;
+}
+
+#simdiaw-meta-list .req span {
+    font-weight: bold;
+    text-shadow: -1px 1px 1px #FFF;
+}
+
+#simdiaw-meta-list input, #simdiaw-meta-list select {
+    width: 100%;
+}
+
+#simdiaw-meta-list label {
+    /* if needed later ;) */
+}
+
+@media screen and (max-width:782px) {
+    .column-end_date, .column-start_time, .column-end_time, .column-location {
+        display: none;
+    }
+    .column-title {
+        width: 80%;
+    }
+    
+    .column-start_date {
+        width: 20%;
+    }
+}
+    
+
+@media (max-width: 480px) {
+   .column-start_date {
+        display: none;
+    }
+    
+    .column-title {
+        width: 100%;
+    }
+}

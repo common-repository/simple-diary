@@ -1,0 +1,18 @@
+{
+    "domain": "messages",
+    "locale_data": {
+       "messages": {
+          "": {
+             "domain": "messages",
+             "plural_forms": "nplurals=2; plural=(n != 1);",
+             "lang": "fr_FR"
+          },
+          "Create a reminder for this post": [
+             "Créer un pense-bête pour cet article"
+          ],
+          "Publish the post to create a new reminder": [
+             "Publier l'article pour créer un pense-bête"
+          ]
+       }
+    }
+ }
